@@ -1,0 +1,119 @@
+.main_page_class {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.home {
+  height: 360px;
+  width: 100%;
+  background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/06/shop-featured1.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.brand_name {
+    height: 380px;
+    margin-left: 30px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .brand_name_welcome {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgb(197, 157, 95);
+     opacity: 5;
+      animation-name: moveit1;
+      animation-duration: 1s;
+      position: relative;
+    
+  }
+
+  @keyframes moveit1 {
+        from {bottom: 50%;}
+        to {bottom: 0%;}
+    }
+
+  .brand_name_contain_name {
+      letter-spacing: 9.4px;
+      color: white;
+      font-weight: 900;
+      font-size: 47px;
+      margin-top: -60px;
+      opacity: 5;
+      animation-name: moveit;
+      animation-duration: 1s;
+      position: relative;
+  }
+
+  @keyframes moveit {
+        from {right: 50%;}
+        to {right: 0%;}
+    }
+
+  .line {
+     border-bottom: 1px solid whitesmoke;
+     width: 330px;
+     opacity: 5;
+      animation-name: moveit2;
+      animation-duration: 1s;
+      position: relative;
+   }
+
+   @keyframes moveit2 {
+        from {left: 50%;}
+        to {left: 0%;}
+    }
+
+   .brand_name_contain_name2 {
+      color: white;
+      font-weight: 400;
+      font-size: 15px;
+      margin-top: 5px;
+      opacity: 5;
+      animation-name: moveit3;
+      animation-duration: 1s;
+      position: relative;
+  }
+
+  @keyframes moveit3 {
+        from {top: 50%;}
+        to {top: 0%;}
+    }
+  .main_top {
+    width: 1177px;
+    margin: 80px;
+  }
+
+  .nav-link {
+    font-family: Source Sans Pro;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #262526;
+    font-size: 1.5rem;;
+    line-height: 1.51;
+    margin: 10px;
+    margin-top: -10px;
+    
+  }
+  .active {
+    color: #C59D5F;
+    border-bottom: 3px solid #c59d5f;
+  }
+
+  .nav-link:hover {
+    color: #C59D5F;
+    border-bottom: 3px solid #c59d5f;
+  } 
+   .food-list {
+     margin-top: 40px;
+   }
